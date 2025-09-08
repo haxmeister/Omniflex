@@ -6,7 +6,7 @@ no warnings 'experimental::class';
 class Omniflex 0.01;
 
 use Omniflex::Loop;
-use Omniflex::Watcher;
+#use Omniflex::Watcher;
 use Omniflex::Timer;
 
 field $loop :reader = Omniflex::Loop->new();

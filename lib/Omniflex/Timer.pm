@@ -1,6 +1,7 @@
 use v5.42;
 use feature 'class';
 no warnings 'experimental::class';
+use Omniflex::Watcher;
 
 class Omniflex::Timer :isa(Omniflex::Watcher);
 use Linux::FD::Timer;
